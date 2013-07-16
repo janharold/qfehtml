@@ -145,8 +145,13 @@
 	
 	.overlayElement .overlayNotification{display:none; width:200px; position: absolute; right: 40px; top:150px; }
 	.overlayElement .overlayNotification p{text-align: center; color:#fff; padding:8px 0; margin-bottom:3px; font-size:0.8em;}
-	.overlayElement .overlayNotification p.error{background:#ff3333;}
-	.overlayElement .overlayNotification p.success{background:#00bc60;}
+	
+	/* Notifications */
+
+ 	.pageNotification{position:absolute; top:40px; width:100%;}
+	.pageNotification p{color:#fff; width:400px; margin:0 auto; padding:8px;}
+	p.error{background:#ff3333;}
+    p.success{background:#00bc60;}
 
 /* Footer */
 .footerWrap{background:#333; margin-top:60px;}
