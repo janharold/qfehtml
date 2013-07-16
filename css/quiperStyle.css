@@ -112,7 +112,7 @@
 		.content.subpage .article .articleComments li p{font-size:0.8em ; margin:0 0 10px ; padding:0; line-height: 1.4em; }
 		
 		.content.subpage .article .commentForm{float:left; width:600px; background:#00c8f3; padding:10px;}
-		.content.subpage .article .commentForm textarea{width:470px; padding:10px; resize:none; border:none; color:#666; font-size:1em; float:left; margin:0 10px 0 0;}
+		.content.subpage .article .commentForm textarea{width:460px; padding:10px; resize:none; border:none; color:#666; font-size:1em; float:left; margin:0 10px 0 0;}
 		.content.subpage .article .commentForm button{background:none; border:none; cursor: pointer; margin:O; padding:0;}
 
 		.otherPosts{float:left; margin-bottom:30px;}
@@ -120,6 +120,18 @@
 		.otherPosts li img{float:left; margin:0 10px 0 0;}
 		.otherPosts li h4 {margin-top:5px;}
 		.otherPosts li h4 a{font-size:1.05em;}
+
+	/* Overlay Element */
+	.overlayElement{display: none;}
+	.overlayElement{position:fixed; background:rgba(0,0,0,0.85); width:100%; height: 100%; z-index: 200;}
+	.overlayElement .overlayBox{display:none; width:420px; background: #fff; border-top:10px solid #00c8f3; margin:50px auto 0; padding:30px; position: relative;}
+	.overlayElement .overlayBox h3{font-size:20px; font-family: 'museoslab500';}
+	.overlayElement .overlayBox a.close{position: absolute; top:-10px; right: 0; background:#00c8f3; color:#fff; padding:5px 10px; font-size:1.2em;}
+	.overlayElement .overlayBox form{}
+	.overlayElement .overlayBox form input{display:block; width:405px; padding:6px; font-size:16px; margin-bottom:10px; border:1px solid #ccc; margin-bottom:10px;}
+	.overlayElement .overlayBox form textarea{width:405px; padding:6px; resize:none; border:1px solid #ccc; margin:10px 0;}
+	.overlayElement .overlayBox form button{background: #00c8f3; color:#fff; padding:12px; font-size:1em; border:none; cursor: pointer;}
+	.overlayElement{}
 
 /* Footer */
 .footerWrap{background:#333; margin-top:60px;}

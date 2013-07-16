@@ -4,9 +4,32 @@
 		<title>Quiper</title>
 		<link rel="stylesheet" type="text/css" href="css/quiperStyle.css">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/rhinoslider-1.05/js/rhinoslider-1.05.min.js"></script>
+		<script type="text/javascript" src="assets/rhinoslider-1.05/js/mousewheel.js"></script>
+		<script type="text/javascript" src="assets/rhinoslider-1.05/js/easing.js"></script>
+		<script type="text/javascript" src="assets/quiperJS.js"></script>
+
 	</head>
 	<body>
+		<div class="overlayElement">
+			<div class="overlayBox postArticle">
+				<h3>Create Article</h3>
+				<a href="#" class="close closeOverlay">X</a>
+				<form action="">
+					<input type="text">
+					<label for="">Select Category</label>
+					<select name="" id="">
+						<option >Category 1</option>
+						<option >Category 2</option>
+						<option >Category 3</option>
+					</select>
+					<textarea name="" id="" cols="50" rows="15"></textarea>
+					<input type="file">
+					<button type="submit">Post Article</button>
+				</form>
+			</div>
+		</div>
 		<!--START  |  HEADER -->
 		<div class="branding">
 			<div class="container_12">
@@ -19,7 +42,7 @@
 							<li><a href="#">articles</a></li>
 							<li><a href="#">editors</a></li>
 							<li><a href="#">archive</a></li>
-							<li><a href="#">create article</a></li>
+							<li><a href="#" class="createArticle">create article</a></li>
 							<li><a href="#">FAQs</a></li>
 							<li><a href="#">about</a></li>
 						</ul>
@@ -38,6 +61,7 @@
 			END  |  HEADER 
 			START |  CONTENT
 		-->
+
 		<div class="container_12 content subpage">
 			<div class="alpha grid_8 article">
 				<img src="images/sampleArticleIMG.jpg" alt="">

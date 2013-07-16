@@ -36,4 +36,17 @@ $(document).ready(function() {
 	        }
 	    );
 	});
+
+	// Overlay Effect
+	$('.createArticle').click(function(){
+		$('.overlayElement').fadeToggle(400);
+		$('.postArticle').delay(400).fadeToggle(200);
+	});
+		//Close Overlay
+		$('.closeOverlay').click(function(){
+			$(this).parent().fadeToggle(400);
+			$(this).parent().parent().delay(400).fadeToggle(200);
+		});
+
+
 });
