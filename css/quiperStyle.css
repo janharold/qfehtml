@@ -126,16 +126,17 @@
 	.overlayElement{display:none; position:fixed; background:rgba(0,0,0,0.85); width:100%; height: 100%; z-index: 200;}
 	.overlayElement .overlayBox{ width:420px; background: #fff; border-top:10px solid #00c8f3; border-bottom:10px solid #00c8f3; margin:50px auto 0; padding:30px; position: relative;}
 		.overlayBox.postArticle{display: none;}
-		.overlayBox.signIn{display:none; background:url(../images/sign-inBG.png) no-repeat; border-top:none; border-bottom:none; margin-top:10%;}
+		.overlayBox.signIn{display:none; background:url(../images/sign-inBG.png) no-repeat; border-top:none; border-bottom:none; margin-top:10%; padding-bottom:60px;}
 	.overlayElement .overlayBox h3{font-size:20px; font-family: 'museoslab500';}
 	.overlayElement .overlayBox a.close{position: absolute; top:-10px; right: 0; background:#00c8f3; color:#fff; padding:5px 10px; font-size:1.2em;}
 		.overlayElement .overlayBox.signIn a.close{position: absolute; top:0; right: 0; background:#00c8f3; color:#fff; padding:5px 10px; font-size:1.2em;}
+		.overlayElement .overlayBox.signIn button{float:right;}
 	.overlayElement .overlayBox form{}
 	.overlayElement .overlayBox form input{display:block; width:405px; padding:6px; font-size:16px; margin-bottom:10px; border:1px solid #ccc; margin-bottom:10px;}
 	.overlayElement .overlayBox form textarea{width:405px; padding:6px; resize:none; border:1px solid #ccc; margin:10px 0;}
 	.overlayElement .overlayBox form button{background: #00c8f3; color:#fff; padding:12px; font-size:1em; border:none; cursor: pointer;}
 	
-	.overlayElement .overlayNotification{width:480px; margin:10px auto 0;}
+	.overlayElement .overlayNotification{display:none; width:480px; margin:10px auto 0;}
 	.overlayElement .overlayNotification p{text-align: center; color:#fff; padding:8px 0; margin-bottom:2px;}
 	.overlayElement .overlayNotification p.error{background:#ff3333;}
 	.overlayElement .overlayNotification p.success{background:#00bc60;}
