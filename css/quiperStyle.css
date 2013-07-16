@@ -110,10 +110,12 @@
 		.content.subpage .article .articleComments div img{float:left; margin:0 15px 10px 0 ; padding:0;}
 		.content.subpage .article .articleComments div.level1 img{float:left; margin:0 15px 10px 30px ; padding:0;}
 		.content.subpage .article .articleComments div.level2 img{float:left; margin:0 15px 10px 50px ; padding:0;}
+		.content.subpage .article .articleComments div.level3 img{float:left; margin:0 15px 10px 70px ; padding:0;}
 		
 		.content.subpage .article .articleComments div span{ float:left; width:550px; padding-bottom:10px;}
 		.content.subpage .article .articleComments div.level1 span{ float:left; width:520px; }
 		.content.subpage .article .articleComments div.level2 span{ float:left; width:470px; }
+		.content.subpage .article .articleComments div.level3 span{ float:left; width:440px; }
 		.content.subpage .article .articleComments div h5{margin:4px 0 5px;}
 		.content.subpage .article .articleComments div h5 a{margin:4px 0 5px; font-size:0.85em; font-family: 'museoslab500';}
 		.content.subpage .article .articleComments div p{font-size:0.8em ; margin:0 0 5px ; padding:0; line-height: 1.4em; }
