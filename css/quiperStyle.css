@@ -1,0 +1,134 @@
+/*
+	Quiper - PUBLICIS MANILA
+	Web Development by ThousandMinds
+		Front-end Developer : Jan Harold Diaz
+		Last Update : January 8, 2012;
+*/
+
+@import url('gs960reset.css');
+@import url('gs960grid_12col.css');
+@import url('quiperWebFonts.css');	
+
+/* Global CSS */
+
+	a{color:#888; text-decoration: none; font-size:12px;}
+	a:hover{color:#111;}
+	/* Typography */
+	body{font-family:'museosans100',Helvetica,sans-serif; color:#666;}
+	h1,h2,h3,h4,h5,h6{font-family:'museoslab100',serif; font-weight: normal; margin-bottom:10px;}
+
+/* Branding / Header */
+
+.branding{border-bottom:1px solid #ccc; padding-bottom:20px;}
+.header{margin-top:25px;}
+.header h1 a{float:left; text-indent: -9999px; display:block; width:98px; height:33px; background: url(../images/quiper_logo.png) no-repeat;}
+.header ul{float:right; margin:0; padding:0; list-style: none;}
+.header ul li{float:left; margin:0; padding:0;}
+.header ul.nav li{margin-left:40px; padding-top:6px;}
+.header ul.icons li{margin-left:5px;}
+
+/* Content */
+	/* Home */
+	.content{position:relative;}
+	.homeRow{float:left; width:960px; margin-bottom:-1px;}
+	.homeRow.firstRow{padding-top:160px;}
+	.featureHome{float:left; max-height:160px; width:480px; background:url(../images/feature_colors.png) no-repeat bottom; padding-bottom:25px;}
+	.featureHome h2 {margin:0; font-family: 'museoslab1000',serif;  text-transform:uppercase; margin:0; padding:20px 0 10px;}
+	.featureHome h2 a{font-size:36px; color:#333;}
+	.featureHome h2 a:hover{color:#000;}
+	.featureHome p{padding:0;}
+	.sSpace1{margin-left:160px;}
+	.sSpace2{margin-left:320px;}
+	.sSpace3{margin-left:480px;}
+	.qBox{float:left;width:320px; height:160px; position: relative;}
+	.qBox .overlayIMG{position: absolute; display:none; z-index: 200; width:480px;}
+		.overlayIMG.one{top:-161px; left:-320px;}
+		.overlayIMG.two{top:-161px; right:-320px;}
+		.overlayIMG.three{top:-161px; left:-320px;}
+		.overlayIMG.four{top:-161px; right:-320px;}
+		.overlayIMG.five{top:-161px; right:-320px;}
+	.qBox em{float:left; margin:0; padding:0; width:160px; position: relative;}
+	.qBox em .ol{position: absolute; top:20px; left: 0;}
+	.qBox em .or{position: absolute; top:20px; right: 0;}
+	.qBox span{float:left; width:130px; padding:15px ;}
+	.qBox span h3 a{font-size:14px; text-transform:uppercase;}
+	.qBox span p{font-size:12px; margin-bottom:5px;}
+	.qBox span i{font-size:10px; text-align:center; font-style: normal; background:url(../images/comments.png) no-repeat;display:inline-block; padding:6px 0 0 ; width:21px; height:21px;}
+	
+	/* Topic Timeline */
+	.contentHeader{ border-bottom:1px solid #999;}
+	.contentHeader h2{margin:30px 30px 25px; float:left; background:url(../images/topic_timeline.png) no-repeat; width:637px; height:49px; text-indent: -9999px;}
+	.timelineContent{background:url(../images/timeline_bg.jpg); min-height: 500px; position: relative;}
+	.timelineContent .dateBatch{float:left; margin:40px 0; }
+	.timelineContent .grid_2{position: relative; z-index: 10;}
+	.timelineContent .grid_2 h3{margin:0 18px 10px; font-family:'museosans500'; font-size:14px; border-bottom:2px solid ; padding-bottom:10px;}
+	.timelineContent .grid_2 p{margin:0 18px 40px; font-size:12px; text-transform: uppercase;}
+	.timelineContent .cyanGreen a{color:#00bc60; border-color:#00bc60; }
+	.timelineContent .mustardGold a{color:#d5b22b; border-color: #d5b22b;}
+	.timelineContent .lightBlue a{color:#00c8f3; border-color: #00c8f3;}
+	.timelineContent .indigo a{color:#8d3d8b; border-color: #8d3d8b;}
+	.timelineContent a:hover{color:#777;}
+	#timelineChart{position:absolute; z-index:5;}
+
+	
+
+	/* Topics */
+	.boxCol.alpha{margin-left:0;}
+	.boxCol,.boxSide{display: inline; float: left; margin-left: 10px; margin-right: 10px;}
+	.boxCol{width:330px; color:#333; font-size:14px;}
+		.boxCol h3{font-family: 'museoslab500'; font-size:18px;}
+		.boxCol h4{ font-family: 'museosans100'; font-size:18px;}
+		.boxCol p{margin-bottom:10px;}
+		.boxCol a{color:#fafafa; font-style: italic; }
+		.boxCol a:hover{color:#fff; font-style: normal;}
+	.boxSide{width:240px; margin-right:0;}
+		.boxSide .twitter{float:left; border:1px solid #00ccff; margin-bottom:20px;}
+		.boxSide .twitter h3{text-indent: -9999px; background:url(../images/twitterTrending.png) no-repeat; height:125px; width:238px; display: block;}
+		.boxSide .twitter ul{padding:0 20px 20px;}
+		.boxSide .contributors{float:left; border:1px solid #333;}
+		.boxSide .contributors h3{text-indent: -9999px; background:url(../images/contributors.png) no-repeat; height:56px; width:238px; display: block;}
+		.boxSide .contributors ul{float:left; padding:0 10px 20px;}
+		.boxSide .contributors ul li{margin:1px; float:left;}
+	.hotTopic blockquote{background:url(../images/hotTopics_bg.png) no-repeat; position:relative; z-index:5; min-height: 190px; padding:20px 25px;}
+	.hotTopic img{position:relative; z-index:0; margin-top:-230px;}
+	.longTopic blockquote{background:url(../images/longTopics_bg.png) no-repeat; position:relative; z-index:5; min-height: 190px; padding:20px 25px;}
+	.longTopic img{position:relative; z-index:0; margin-top:-230px;}
+	
+	/* Subpage Content */
+		.content.subpage{padding-top:60px;}
+		.content.subpage .article{}
+		.content.subpage .article img{margin-bottom:20px;}
+		.content.subpage .article h2{font-size:28px; font-family:'museoslab1000'; font-weight: normal; text-transform: uppercase; color:#00c8f3;}
+		.content.subpage .article .postDetails{color:#999;}
+		.content.subpage .article p{line-height: 24px; font-size:1em; margin-bottom:20px; }
+		.content.subpage .article .shareIcons{border-bottom:1px solid #087991; display: block;}
+
+		.content.subpage .article .articleComments{margin:0;}
+		.content.subpage .article .articleComments li{border-bottom:1px solid #eee; margin:10px 0 0; display: block; float:left; width: 620px;}
+		.content.subpage .article .articleComments li img{float:left; margin:0 15px 10px 0 ; padding:0;}
+		
+		.content.subpage .article .articleComments li span{ float:left; width:550px;}
+		.content.subpage .article .articleComments li h5{margin:4px 0 5px;}
+		.content.subpage .article .articleComments li p{font-size:0.8em ; margin:0 0 10px ; padding:0; line-height: 1.4em; }
+		
+		.content.subpage .article .commentForm{float:left; width:600px; background:#00c8f3; padding:10px;}
+		.content.subpage .article .commentForm textarea{width:470px; padding:10px; resize:none; border:none; color:#666; font-size:1em; float:left; margin:0 10px 0 0;}
+		.content.subpage .article .commentForm button{background:none; border:none; cursor: pointer; margin:O; padding:0;}
+
+		.otherPosts{float:left; margin-bottom:30px;}
+		.otherPosts li{float:left; display: block; margin-bottom:10px;}
+		.otherPosts li img{float:left; margin:0 10px 0 0;}
+		.otherPosts li h4 {margin-top:5px;}
+		.otherPosts li h4 a{font-size:1.05em;}
+
+/* Footer */
+.footerWrap{background:#333; margin-top:60px;}
+.timelineFooter.footerWrap{margin-top:0;}
+.footer{background:url(../images/footer_bg.png) no-repeat; padding-top:20px; min-height:100px;}
+.footer .grid_5{ padding:40px 0; background: url(../images/footer_colors.png) bottom no-repeat;}
+.footer .grid_5 p{font-size:14px; line-height: 20px; color:#999;}
+.footer ul{float:right; margin:40px 0 0; padding:0; list-style: none;}
+.footer ul li{float:left; margin:0 25px; padding:0;}
+.footer ul li a{font-family: 'museoslab100',serif;}
+.footer ul li a:hover{color:#ccc;}
+.footer a.publisher{ float:right;margin-top:30px; margin-right:205px;}

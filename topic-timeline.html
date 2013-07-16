@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiper</title>
+		<link rel="stylesheet" type="text/css" href="css/quiperStyle.css">
+	</head>
+	<body>
+		<!--START  |  HEADER -->
+		<div class="branding">
+			<div class="container_12">
+				<div class="header">
+					<div class="alpha grid_2">
+						<h1><a href="#">QUIPER</a></h1>
+					</div>
+					<div class="grid_8">
+						<ul class="nav">
+							<li><a href="#">articles</a></li>
+							<li><a href="#">editors</a></li>
+							<li><a href="#">archive</a></li>
+							<li><a href="#">create article</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">about</a></li>
+						</ul>
+					</div>
+					<div class="omega grid_2">
+						<ul class="icons">
+							<li><a href="#"><img src="images/icon1.png" alt="linkName"/></a></li>
+							<li><a href="#"><img src="images/icon2.png" alt="linkName"/></a></li>
+							<li><a href="#"><img src="images/icon3.png" alt="linkName"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+			END  |  HEADER 
+			START |  CONTENT
+		-->
+		<div class="container_12 content">
+			<div class="container_12 contentHeader">
+				<h2>Topic Timeline - Backtrack for more heated topics from the previous weeks</h2>
+				<div class="grid_2 timelineControls">
+					
+				</div>
+			</div>
+		</div>
+		<div class="timelineContent">
+			<div class="container_12">
+				<div class="dateBatch">
+					<canvas id="timelineChart" width="940" height="500">
+					</canvas>
+						<div class="grid_2 alpha prefix_1 cyanGreen">
+							<a href="#">
+								<h3>NOVEMBER 02</h3>
+								<p>Pellentesque Consectetur Quam Ridiculus</p>
+								<img src="images/cyanGreen_circle.png"/>
+							</a>
+						</div>
+						
+						<div class="grid_2 mustardGold">
+							<a href="#">
+								<h3>NOVEMBER 03</h3>
+								<p>Pellentesque Consectetur Quam Ridiculus</p>
+								<img src="images/mustardGold_circle.png" style="padding-top:30px;"/>
+							</a>
+						</div>
+						<div class="grid_2 lightBlue">
+							<a href="#">
+								<h3>NOVEMBER 04</h3>
+								<p>Pellentesque Consectetur Quam Ridiculus</p>
+								<img src="images/lightBlue_circle.png" style="padding-top:60px;"/>
+							</a>
+						</div>
+						<div class="grid_2 mustardGold">
+							<a href="#">
+								<h3>NOVEMBER 05</h3>
+								<p>Pellentesque Consectetur Quam Ridiculus</p>
+								<img src="images/mustardGold_circle.png"/>
+							</a>
+						</div>
+						<div class="grid_2 omega suffix_1 indigo">
+							<a href="#">
+								<h3>NOVEMBER 06</h3>
+								<p>Pellentesque Consectetur Quam Ridiculus</p>
+								<img src="images/indigo_circle.png" style="padding-top:90px;"/>
+							</a>
+						</div>
+					
+					<script>
+				      var canvas = document.getElementById('timelineChart');
+				      var context = canvas.getContext('2d');
+
+				      context.beginPath();
+				      context.moveTo(0, 350);
+				      context.lineTo(150, 190);
+				      context.lineTo(320, 210);
+				      context.lineTo(470, 250);
+				      context.lineTo(630, 180);
+				      context.lineTo(800, 290);
+				      context.lineTo(940, 350);
+				      context.strokeStyle = "#000000";
+				      context.stroke();
+
+				    </script>
+				</div>
+			</div>
+		</div>
+		<!--
+			END  |  CONTENT
+			START |  FOOTER
+		-->
+		<div class="timelineFooter footerWrap">
+			<div class="container_12 footer">
+				<div class="alpha grid_5">
+					<p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metu.</p>
+				</div>
+				<div class="omega grid_7">
+					<ul>
+						<li><a href="#">articles</a></li>
+						<li><a href="#">editors</a></li>
+						<li><a href="#">archives</a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">about</a></li>
+					</ul>
+					<a href="#" class="publisher"><img src="images/publicis_manila_logo.png" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
