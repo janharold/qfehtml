@@ -38,14 +38,20 @@ $(document).ready(function() {
 	});
 
 	// Overlay Effect
+	//Article
 	$('.createArticle').click(function(){
-		$('.overlayElement').fadeToggle(400);
-		$('.postArticle').delay(400).fadeToggle(200);
+		$('.overlayElement').fadeToggle(300);
+		$('.postArticle').delay(300).fadeToggle(200);
+	});
+	//Sign In
+	$('.callSignIn').click(function(){
+		$('.overlayElement').fadeToggle(300);
+		$('.signIn').delay(300).fadeToggle(200);
 	});
 		//Close Overlay
 		$('.closeOverlay').click(function(){
-			$(this).parent().fadeToggle(400);
-			$(this).parent().parent().delay(400).fadeToggle(200);
+			$(this).parent().fadeToggle(300);
+			$(this).parent().parent().delay(300).fadeToggle(200);
 		});
 
 
