@@ -102,14 +102,21 @@
 		.content.subpage .article .postDetails{color:#999;}
 		.content.subpage .article p{line-height: 24px; font-size:1em; margin-bottom:20px; }
 		.content.subpage .article .shareIcons{border-bottom:1px solid #087991; display: block;}
-
-		.content.subpage .article .articleComments{margin:0;}
-		.content.subpage .article .articleComments li{border-bottom:1px solid #eee; margin:10px 0 0; display: block; float:left; width: 620px;}
-		.content.subpage .article .articleComments li img{float:left; margin:0 15px 10px 0 ; padding:0;}
 		
-		.content.subpage .article .articleComments li span{ float:left; width:550px;}
-		.content.subpage .article .articleComments li h5{margin:4px 0 5px;}
-		.content.subpage .article .articleComments li p{font-size:0.8em ; margin:0 0 10px ; padding:0; line-height: 1.4em; }
+		/* Article Comments */
+		.content.subpage .article .articleComments{margin:0;}
+		.content.subpage .article .articleComments div{border-bottom:1px solid #eee; margin:10px 0 0; display: block; float:left; width: 620px;}
+			.content.subpage .article .articleComments div div{border-bottom:none; border-top:1px solid #eee; padding:10px 0 0; margin-top:0;}
+		.content.subpage .article .articleComments div img{float:left; margin:0 15px 10px 0 ; padding:0;}
+		.content.subpage .article .articleComments div.level1 img{float:left; margin:0 15px 10px 30px ; padding:0;}
+		.content.subpage .article .articleComments div.level2 img{float:left; margin:0 15px 10px 50px ; padding:0;}
+		
+		.content.subpage .article .articleComments div span{ float:left; width:550px; padding-bottom:10px;}
+		.content.subpage .article .articleComments div.level1 span{ float:left; width:520px; }
+		.content.subpage .article .articleComments div.level2 span{ float:left; width:470px; }
+		.content.subpage .article .articleComments div h5{margin:4px 0 5px;}
+		.content.subpage .article .articleComments div h5 a{margin:4px 0 5px; font-size:0.85em; font-family: 'museoslab500';}
+		.content.subpage .article .articleComments div p{font-size:0.8em ; margin:0 0 5px ; padding:0; line-height: 1.4em; }
 		
 		.content.subpage .article .commentForm{float:left; width:600px; background:#00c8f3; padding:10px;}
 		.content.subpage .article .commentForm textarea{width:460px; padding:10px; resize:none; border:none; color:#666; font-size:1em; float:left; margin:0 10px 0 0;}
@@ -136,8 +143,8 @@
 	.overlayElement .overlayBox form textarea{width:405px; padding:6px; resize:none; border:1px solid #ccc; margin:10px 0;}
 	.overlayElement .overlayBox form button{background: #00c8f3; color:#fff; padding:12px; font-size:1em; border:none; cursor: pointer;}
 	
-	.overlayElement .overlayNotification{display:none; width:480px; margin:10px auto 0;}
-	.overlayElement .overlayNotification p{text-align: center; color:#fff; padding:8px 0; margin-bottom:2px;}
+	.overlayElement .overlayNotification{display:none; width:200px; position: absolute; right: 40px; top:150px; }
+	.overlayElement .overlayNotification p{text-align: center; color:#fff; padding:8px 0; margin-bottom:3px; font-size:0.8em;}
 	.overlayElement .overlayNotification p.error{background:#ff3333;}
 	.overlayElement .overlayNotification p.success{background:#00bc60;}
 
